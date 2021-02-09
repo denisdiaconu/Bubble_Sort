@@ -2,7 +2,7 @@
 
 # Bubble Sort Project
 
-![screenshot](./Bubble_Sort/Screenshot from 2021-02-09 16-43-16.png)
+![screenshot](https://github.com/denisdiaconu/Bubble_Sort/blob/main/Screenshot%20from%202021-02-09%2016-43-16.png)
 
 This is an implementation of Bubble Sort algorithm using ruby.
 
