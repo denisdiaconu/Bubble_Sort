@@ -1,14 +1,15 @@
-def bubble_sort (arr)
-    i = 0
-    while i < arr.length
-        for j in 0...arr.length - i - 1
-            if arr[j] > arr[j + 1]
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            end
-        end
-        i = i + 1
+def bubble_sort(arr)
+  n = arr.length
+  loop do
+    sort = false
+    (n - 1).times do |i|
+      if arr[i] > arr [i + 1]
+        arr[i], arr[i + 1] = arr [i + 1], arr[i]
+        sort = true
+      end
     end
-    print (arr)
+    break if sort == false
+  end
+  print(arr)
 end
-
-bubble_sort([4,3,78,2,0,2])
+puts bubble_sort([4, 3, 78, 2, 0, 2])
